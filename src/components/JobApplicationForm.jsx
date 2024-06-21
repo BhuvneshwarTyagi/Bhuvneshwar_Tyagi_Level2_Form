@@ -171,7 +171,7 @@ const JobApplicationForm = () => {
           <label className="block mb-2">Additional Skills:</label>
           <div className="flex flex-wrap">
             {['JavaScript', 'CSS', 'Python', 'React', 'Node.js'].map((skill) => (
-              <label key={skill} className="mr-4">
+              <label key={skill} className="flex mr-4">
                 <input
                   type="checkbox"
                   name="additionalSkills"
