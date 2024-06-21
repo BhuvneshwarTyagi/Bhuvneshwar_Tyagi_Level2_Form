@@ -78,7 +78,7 @@ const JobApplicationForm = () => {
   };
 
   return (
-    <div className="w-screen h-screen flex items-center justify-center bg-blue-200 ">
+    <div className="w-screen h-screen flex items-center justify-center bg-blue-200 text-black">
       <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-md w-full max-w-md px-4 py-4 mt-4 mb-4 overflow-y-auto">
         <div className="mb-4">
           <label className="block mb-2">Full Name:</label>
