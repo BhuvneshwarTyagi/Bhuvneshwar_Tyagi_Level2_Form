@@ -87,7 +87,7 @@ const JobApplicationForm = () => {
             name="fullName"
             value={formData.fullName}
             onChange={handleChange}
-            className="w-full p-2 border rounded-lg"
+            className="w-full p-2 border rounded-lg bg-white"
           />
           {errors.fullName && <p className="text-red-500 text-sm">{errors.fullName}</p>}
         </div>
@@ -99,7 +99,7 @@ const JobApplicationForm = () => {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="w-full p-2 border rounded-lg"
+            className="w-full p-2 border rounded-lg bg-white"
           />
           {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
         </div>
@@ -111,7 +111,7 @@ const JobApplicationForm = () => {
             name="phoneNumber"
             value={formData.phoneNumber}
             onChange={handleChange}
-            className="w-full p-2 border rounded-lg"
+            className="w-full p-2 border rounded-lg bg-white"
           />
           {errors.phoneNumber && <p className="text-red-500 text-sm">{errors.phoneNumber}</p>}
         </div>
@@ -134,7 +134,7 @@ const JobApplicationForm = () => {
               name="relevantExperience"
               value={formData.relevantExperience}
               onChange={handleChange}
-              className="w-full p-2 border rounded-lg"
+              className="w-full p-2 border rounded-lg bg-white"
             />
             {errors.relevantExperience && <p className="text-red-500 text-sm">{errors.relevantExperience}</p>}
           </div>
@@ -148,7 +148,7 @@ const JobApplicationForm = () => {
               name="portfolioURL"
               value={formData.portfolioURL}
               onChange={handleChange}
-              className="w-full p-2 border rounded-lg"
+              className="w-full p-2 border rounded-lg bg-white"
             />
             {errors.portfolioURL && <p className="text-red-500 text-sm">{errors.portfolioURL}</p>}
           </div>
@@ -161,7 +161,7 @@ const JobApplicationForm = () => {
               name="managementExperience"
               value={formData.managementExperience}
               onChange={handleChange}
-              className="w-full p-2 border rounded-lg"
+              className="w-full p-2 border rounded-lg bg-white"
             ></textarea>
             {errors.managementExperience && <p className="text-red-500 text-sm">{errors.managementExperience}</p>}
           </div>
@@ -193,7 +193,7 @@ const JobApplicationForm = () => {
             name="preferredInterviewTime"
             value={formData.preferredInterviewTime}
             onChange={handleChange}
-            className="w-full p-2 border rounded-lg"
+            className="w-full p-2 border rounded-lg bg-white"
           />
           {errors.preferredInterviewTime && <p className="text-red-500 text-sm">{errors.preferredInterviewTime}</p>}
         </div>
