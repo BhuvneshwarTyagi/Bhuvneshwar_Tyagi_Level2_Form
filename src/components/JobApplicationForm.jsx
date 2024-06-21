@@ -118,7 +118,7 @@ const JobApplicationForm = () => {
 
         <div className="mb-4">
           <label className="block mb-2">Applying for Position:</label>
-          <select name="position" value={formData.position} onChange={handleChange} className="w-full p-2 border rounded-lg">
+          <select name="position" value={formData.position} onChange={handleChange} className="w-full p-2 border rounded-lg bg-white">
             <option value="">Select a position</option>
             <option value="Developer">Developer</option>
             <option value="Designer">Designer</option>
@@ -178,6 +178,7 @@ const JobApplicationForm = () => {
                   value={skill}
                   checked={formData.additionalSkills.includes(skill)}
                   onChange={handleChange}
+                  className="w-full p-2 border rounded-lg bg-white"
                 />
                 {skill}
               </label>
